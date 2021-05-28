@@ -1,0 +1,60 @@
+.flex-body {
+  display: flex;
+}
+
+.imperfectDiv {
+  -webkit-mask-image: url('./shapes/ImperfectMask_1.svg');
+  width: 80px;
+  height: 80px;
+  position: relative;
+  -webkit-mask-size: contain;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  margin-right: 8px
+}
+
+.imperfectDiv2 {
+  -webkit-mask-image: url('./shapes/ImperfectMask_2.svg');
+  width: 80px;
+  height: 80px;
+  position: relative;
+  -webkit-mask-size: contain;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  margin-right: 8px
+}
+
+.imperfectDiv3 {
+  -webkit-mask-image: url('./shapes/ImperfectMask_3.svg');
+  width: 80px;
+  height: 80px;
+  position: relative;
+  -webkit-mask-size: contain;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  margin-right: 8px
+}
+
+.imperfectDiv4 {
+  -webkit-mask-image: url('./shapes/ImperfectMask_4.svg');
+  width: 80px;
+  height: 80px;
+  position: relative;
+  -webkit-mask-size: contain;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  margin-right: 8px
+}
+
+.inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  line-height: 0;
+}
